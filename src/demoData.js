@@ -49,6 +49,21 @@ export const data = [
   },
 ];
 
+export const productData = [
+  {
+    name: "Jan",
+    "sales": 4000,
+  },
+  {
+    name: "Feb",
+    "sales": 5900,
+  },
+  {
+    name: "Mar",
+    "sales": 2000,
+  },
+];
+
 export const userRows = [
   {
     id: 1,
@@ -137,7 +152,7 @@ export const productRows = [
     id: 1,
     name: "Apple Airpods",
     img:
-      "https://scale.coolshop-cdn.com/product-media.coolshop-cdn.com/AJ24QM/c94fb0daa13442d5a193a96af3bdc8df.jpg/f/apple-airpods-2-with-wireless-charging-case-mrxj2zm-white.jpg",
+      "https://scale.coolshop-cdn.com/product-media.coolshop-cdn.com/AJ24QM/c94fb0daa13442d5a193a96af3bdc8df.jpg",
     stock: 123,
     status: "active",
     price: "$120.00",
@@ -146,7 +161,7 @@ export const productRows = [
     id: 2,
     name: "Apple Airpods",
     img:
-      "https://scale.coolshop-cdn.com/product-media.coolshop-cdn.com/AJ24QM/c94fb0daa13442d5a193a96af3bdc8df.jpg/f/apple-airpods-2-with-wireless-charging-case-mrxj2zm-white.jpg",
+      "https://scale.coolshop-cdn.com/product-media.coolshop-cdn.com/AJ24QM/c94fb0daa13442d5a193a96af3bdc8df.jpg",
     stock: 123,
     status: "active",
     price: "$120.00",
@@ -155,7 +170,7 @@ export const productRows = [
     id: 3,
     name: "Apple Airpods",
     img:
-      "https://scale.coolshop-cdn.com/product-media.coolshop-cdn.com/AJ24QM/c94fb0daa13442d5a193a96af3bdc8df.jpg/f/apple-airpods-2-with-wireless-charging-case-mrxj2zm-white.jpg",
+      "https://scale.coolshop-cdn.com/product-media.coolshop-cdn.com/AJ24QM/c94fb0daa13442d5a193a96af3bdc8df.jpg",
     stock: 123,
     status: "active",
     price: "$120.00",
@@ -164,7 +179,7 @@ export const productRows = [
     id: 4,
     name: "Apple Airpods",
     img:
-      "https://scale.coolshop-cdn.com/product-media.coolshop-cdn.com/AJ24QM/c94fb0daa13442d5a193a96af3bdc8df.jpg/f/apple-airpods-2-with-wireless-charging-case-mrxj2zm-white.jpg",
+      "https://scale.coolshop-cdn.com/product-media.coolshop-cdn.com/AJ24QM/c94fb0daa13442d5a193a96af3bdc8df.jpg",
     stock: 123,
     status: "active",
     price: "$120.00",
@@ -173,7 +188,7 @@ export const productRows = [
     id: 5,
     name: "Apple Airpods",
     img:
-      "https://scale.coolshop-cdn.com/product-media.coolshop-cdn.com/AJ24QM/c94fb0daa13442d5a193a96af3bdc8df.jpg/f/apple-airpods-2-with-wireless-charging-case-mrxj2zm-white.jpg",
+      "https://scale.coolshop-cdn.com/product-media.coolshop-cdn.com/AJ24QM/c94fb0daa13442d5a193a96af3bdc8df.jpg",
     stock: 123,
     status: "active",
     price: "$120.00",
@@ -182,7 +197,7 @@ export const productRows = [
     id: 6,
     name: "Apple Airpods",
     img:
-      "https://scale.coolshop-cdn.com/product-media.coolshop-cdn.com/AJ24QM/c94fb0daa13442d5a193a96af3bdc8df.jpg/f/apple-airpods-2-with-wireless-charging-case-mrxj2zm-white.jpg",
+      "https://scale.coolshop-cdn.com/product-media.coolshop-cdn.com/AJ24QM/c94fb0daa13442d5a193a96af3bdc8df.jpg",
     stock: 123,
     status: "active",
     price: "$120.00",
@@ -191,7 +206,7 @@ export const productRows = [
     id: 7,
     name: "Apple Airpods",
     img:
-      "https://scale.coolshop-cdn.com/product-media.coolshop-cdn.com/AJ24QM/c94fb0daa13442d5a193a96af3bdc8df.jpg/f/apple-airpods-2-with-wireless-charging-case-mrxj2zm-white.jpg",
+      "https://scale.coolshop-cdn.com/product-media.coolshop-cdn.com/AJ24QM/c94fb0daa13442d5a193a96af3bdc8df.jpg",
     stock: 123,
     status: "active",
     price: "$120.00",
@@ -200,7 +215,7 @@ export const productRows = [
     id: 8,
     name: "Apple Airpods",
     img:
-      "https://scale.coolshop-cdn.com/product-media.coolshop-cdn.com/AJ24QM/c94fb0daa13442d5a193a96af3bdc8df.jpg/f/apple-airpods-2-with-wireless-charging-case-mrxj2zm-white.jpg",
+      "https://scale.coolshop-cdn.com/product-media.coolshop-cdn.com/AJ24QM/c94fb0daa13442d5a193a96af3bdc8df.jpg",
     stock: 123,
     status: "active",
     price: "$120.00",
@@ -209,7 +224,7 @@ export const productRows = [
     id: 9,
     name: "Apple Airpods",
     img:
-      "https://scale.coolshop-cdn.com/product-media.coolshop-cdn.com/AJ24QM/c94fb0daa13442d5a193a96af3bdc8df.jpg/f/apple-airpods-2-with-wireless-charging-case-mrxj2zm-white.jpg",
+      "https://scale.coolshop-cdn.com/product-media.coolshop-cdn.com/AJ24QM/c94fb0daa13442d5a193a96af3bdc8df.jpg",
     stock: 123,
     status: "active",
     price: "$120.00",
@@ -218,7 +233,7 @@ export const productRows = [
     id: 10,
     name: "Apple Airpods",
     img:
-      "https://scale.coolshop-cdn.com/product-media.coolshop-cdn.com/AJ24QM/c94fb0daa13442d5a193a96af3bdc8df.jpg/f/apple-airpods-2-with-wireless-charging-case-mrxj2zm-white.jpg",
+      "https://scale.coolshop-cdn.com/product-media.coolshop-cdn.com/AJ24QM/c94fb0daa13442d5a193a96af3bdc8df.jpg",
     stock: 123,
     status: "active",
     price: "$120.00",

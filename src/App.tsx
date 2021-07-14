@@ -4,10 +4,11 @@ import Home from "./pages/Home/Home";
 import UserList from "./pages/UserList/UserList";
 import SingleUser from "./pages/SingleUser/SingleUser";
 import NewUser from './pages/NewUser/NeuUser'
-import ProductList from "./pages/ProductList/ProductList";
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 import './App.Style.css'
+import ProductList from "./pages/ProductList/ProductList";
+import SingleProduct from "./pages/SingleProduct/SingleProduct";
 
 function App() {
   return (
@@ -32,7 +33,7 @@ function App() {
             <ProductList />
           </Route>
           <Route path="/product/:productId" >
-            <SingleUser />
+            <SingleProduct />
           </Route>
           <Route path="/newProduct" >
             <NewUser />
