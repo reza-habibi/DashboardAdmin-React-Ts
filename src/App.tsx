@@ -9,6 +9,7 @@ import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 import './App.Style.css'
 import ProductList from "./pages/ProductList/ProductList";
 import SingleProduct from "./pages/SingleProduct/SingleProduct";
+import NewProduct from "./pages/NewProduct/NewProduct";
 
 function App() {
   return (
@@ -36,7 +37,7 @@ function App() {
             <SingleProduct />
           </Route>
           <Route path="/newProduct" >
-            <NewUser />
+            <NewProduct />
           </Route>
         </Switch>
       </div>
