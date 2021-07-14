@@ -3,6 +3,7 @@ import Topbar from "./components/Topbar/Topbar";
 import Home from "./pages/Home/Home";
 import UserList from "./pages/UserList/UserList";
 import SingleUser from "./pages/SingleUser/SingleUser";
+import NewUser from './pages/NewUser/NeuUser'
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom'
 
 import './App.Style.css'
@@ -22,6 +23,9 @@ function App() {
           </Route>
           <Route path="/user/:userId" >
             <SingleUser />
+          </Route>
+          <Route path="/newUser" >
+            <NewUser />
           </Route>
         </Switch>
       </div>

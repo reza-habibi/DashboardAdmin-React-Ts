@@ -1,66 +1,85 @@
-import './WidgetLarge.Style.css'
+import "./WidgetLarge.Style.css";
 
 export default function WidgetLarge() {
+  const Button = ({ type }: any) => {
+    return <button className={"widgetLgButton " + type}>{type}</button>;
+  };
 
-    const Button =({type}:any)=>{
-        return <button className={"widgetLgButton " + type}>{type}</button>
-    }
-
-    return (
-        <div className="widgetLg">
-            <h3 className="widgetLgTitle">Latest transactions</h3>
-            <table className="widgetLgTable">
-                <tr className="widgetLgTr">
-                    <th className="widgetLgTh">Customer</th>
-                    <th className="widgetLgTh">Date</th>
-                    <th className="widgetLgTh">Amount</th>
-                    <th className="widgetLgTh">Status</th>
-                </tr>
-                <tr className="widgetLgTr">
-                    <td className="widgetLgUser">
-                        <img src="https://20-dns.xyz/2020/04/Ho3einDidgah-realThumb.jpg" alt="" className="widgetLgImg" />
-                        <span className="widgetLgName"></span>
-                    </td>
-                    <td className="widgetLgDate">2 Jun 2021</td>
-                    <td className="widgetLgAmount">$122.00</td>
-                    <td className="widgetLgStatus">
-                        <Button type="Approved" />
-                    </td>
-                </tr>
-                <tr className="widgetLgTr">
-                    <td className="widgetLgUser">
-                        <img src="https://20-dns.xyz/2020/04/Ho3einDidgah-realThumb.jpg" alt="" className="widgetLgImg" />
-                        <span className="widgetLgName"></span>
-                    </td>
-                    <td className="widgetLgDate">2 Jun 2021</td>
-                    <td className="widgetLgAmount">$122.00</td>
-                    <td className="widgetLgStatus">
-                        <Button type="Decline" />
-                    </td>
-                </tr>
-                <tr className="widgetLgTr">
-                    <td className="widgetLgUser">
-                        <img src="https://20-dns.xyz/2020/04/Ho3einDidgah-realThumb.jpg" alt="" className="widgetLgImg" />
-                        <span className="widgetLgName"></span>
-                    </td>
-                    <td className="widgetLgDate">2 Jun 2021</td>
-                    <td className="widgetLgAmount">$122.00</td>
-                    <td className="widgetLgStatus">
-                        <Button type="Pending" />
-                    </td>
-                </tr>
-                <tr className="widgetLgTr">
-                    <td className="widgetLgUser">
-                        <img src="https://20-dns.xyz/2020/04/Ho3einDidgah-realThumb.jpg" alt="" className="widgetLgImg" />
-                        <span className="widgetLgName"></span>
-                    </td>
-                    <td className="widgetLgDate">2 Jun 2021</td>
-                    <td className="widgetLgAmount">$122.00</td>
-                    <td className="widgetLgStatus">
-                        <Button type="Approved" />
-                    </td>
-                </tr>
-            </table>
-        </div>
-    )
+  return (
+    <div className="widgetLg">
+      <h3 className="widgetLgTitle">Latest transactions</h3>
+      <table className="widgetLgTable">
+        <thead>
+          <tr className="widgetLgTr">
+            <th className="widgetLgTh">Customer</th>
+            <th className="widgetLgTh">Date</th>
+            <th className="widgetLgTh">Amount</th>
+            <th className="widgetLgTh">Status</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr className="widgetLgTr">
+            <td className="widgetLgUser">
+              <img
+                src="https://20-dns.xyz/2020/04/Ho3einDidgah-realThumb.jpg"
+                alt=""
+                className="widgetLgImg"
+              />
+              <span className="widgetLgName"></span>
+            </td>
+            <td className="widgetLgDate">2 Jun 2021</td>
+            <td className="widgetLgAmount">$122.00</td>
+            <td className="widgetLgStatus">
+              <Button type="Approved" />
+            </td>
+          </tr>
+          <tr className="widgetLgTr">
+            <td className="widgetLgUser">
+              <img
+                src="https://20-dns.xyz/2020/04/Ho3einDidgah-realThumb.jpg"
+                alt=""
+                className="widgetLgImg"
+              />
+              <span className="widgetLgName"></span>
+            </td>
+            <td className="widgetLgDate">2 Jun 2021</td>
+            <td className="widgetLgAmount">$122.00</td>
+            <td className="widgetLgStatus">
+              <Button type="Decline" />
+            </td>
+          </tr>
+          <tr className="widgetLgTr">
+            <td className="widgetLgUser">
+              <img
+                src="https://20-dns.xyz/2020/04/Ho3einDidgah-realThumb.jpg"
+                alt=""
+                className="widgetLgImg"
+              />
+              <span className="widgetLgName"></span>
+            </td>
+            <td className="widgetLgDate">2 Jun 2021</td>
+            <td className="widgetLgAmount">$122.00</td>
+            <td className="widgetLgStatus">
+              <Button type="Pending" />
+            </td>
+          </tr>
+          <tr className="widgetLgTr">
+            <td className="widgetLgUser">
+              <img
+                src="https://20-dns.xyz/2020/04/Ho3einDidgah-realThumb.jpg"
+                alt=""
+                className="widgetLgImg"
+              />
+              <span className="widgetLgName"></span>
+            </td>
+            <td className="widgetLgDate">2 Jun 2021</td>
+            <td className="widgetLgAmount">$122.00</td>
+            <td className="widgetLgStatus">
+              <Button type="Approved" />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  );
 }
